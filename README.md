@@ -45,9 +45,11 @@ All of this is done **without requiring external circuit simulators**, making it
 ### 3. Voltage Gain Calculation
 
 - Small-signal gain estimated as:  
+
 \[
 A_v = \frac{R_C}{R_E + r_e}
 \]  
+
 where \( r_e = \frac{0.026}{I_C} \) (thermal voltage approximation).  
 
 ### 4. Modified Nodal Analysis (MNA) Solver
